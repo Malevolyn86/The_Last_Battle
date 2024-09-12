@@ -1,0 +1,77 @@
+faction_name: "Humanos"
+units:
+ - name: "Alférez"
+    type: "Personaje"
+    limit: "0-3"  
+    base_cost: 115 
+    unit_size:
+      min: 1  
+      max: 1
+    equipment_options:
+	  choose_one:
+        - name: "Alabarda"
+          cost: Gratis     
+        - name: "Armas Emparejadas"
+          cost: 5       
+        - name: "Arma a Dos Manos"
+          cost: 5
+		- name: "Lanza Montada"
+          cost: 5
+    special_abilities:
+      choose_one:            
+        - name: "Gran Táctico"
+          cost: 30
+          description: "Permite lanzar tres Órdenes en lugar de dos."
+          limit: "0-1"     
+        - name: "Maestre de Campo"
+          cost: 45
+          description: "La miniatura obtiene +2Ata y +1Dis."
+
+
+  - name: "Caballero Comandante"
+    type: "Personaje"
+    limit: "0-1" 
+    base_cost: 200 
+    unit_size:
+      min: 1  
+      max: 1
+    mandatory_equipment: 
+      choose_one:    
+        - name: "Caballo"
+          cost: "Gratis" 
+        - name: "Grifo Joven"
+          cost: 40
+        - name: "Grifo Adulto"
+          cost: 45
+    equipment_options:
+      - name: "+1Arm"
+        cost: 5
+    mandatory_special_abilities:
+	  choose_one
+        - name: "+Orden de Morr"
+          cost: 5
+		- name: "Orden del Sol Llameante"
+		  cost: "Gratis"
+		- name: "Orden de Ulric"
+		  cost: 10
+		- name: "Sumo Inquisidor"
+		  cost: 150
+		
+		
+		
+- name: "Infantes"
+type: "Tropa"
+    mandatory: true
+    limit: "1+"
+    base_cost: 190
+    additional_cost_per_miniature: 9
+    unit_size:
+      min: 20
+      max: 30
+    equipment_options:
+      - name: "Pica"
+        cost: "Gratis"
+      - name: "Alabarda"
+        cost_per_miniature: 1
+
+  

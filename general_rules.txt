@@ -1,0 +1,5 @@
+game_name: "TheLastBattle"
+max_points: 2500
+general_rules:
+  - "Máximo de 2 héroes por ejército."
+
