@@ -15,7 +15,7 @@ units:
           cost: 5       
         - name: "Arma a Dos Manos"
           cost: 5
-		- name: "Lanza Montada"
+	- name: "Lanza Montada"
           cost: 5
     special_abilities:
       choose_one:            
