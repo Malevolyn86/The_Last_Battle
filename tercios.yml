@@ -60,8 +60,8 @@ units:
 		
 		
 - name: "Infantes"
-type: "Tropa"
-    mandatory: true
+    type: "Tropa"
+    mandatory: "true"
     limit: "1+"
     base_cost: 190
     additional_cost_per_miniature: 9
