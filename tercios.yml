@@ -48,14 +48,14 @@ units:
         cost: 5
     mandatory_special_abilities:
 	  choose_one
-        - name: "+Orden de Morr"
+        - name: "Orden de Morr"
           cost: 5
-		- name: "Orden del Sol Llameante"
-		  cost: "Gratis"
-		- name: "Orden de Ulric"
-		  cost: 10
-		- name: "Sumo Inquisidor"
-		  cost: 150
+	- name: "Orden del Sol Llameante"
+	  cost: "Gratis"
+	- name: "Orden de Ulric"
+	  cost: 10
+	- name: "Sumo Inquisidor"
+	  cost: 150
 		
 		
 		
